@@ -1,0 +1,11 @@
+*Flexbox explained
+Jorge Montoya e Stephen Burg
+
+*CSS Grid explained
+Jorge Montoya e Stephen Burg
+
+*Smashing HTML
+Bill Sander
+
+*CSS
+Eric Meyer

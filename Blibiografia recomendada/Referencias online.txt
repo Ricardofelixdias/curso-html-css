@@ -1,0 +1,11 @@
+*Referencia MDN
+(mozilla developer network)
+
+*Referencia W3C Standards 
+(World Wide Web Consortium)
+
+*WHATWG Living standard
+(Web hypertext Application Technology Working Grou)
+
+*W3Schols
+(Refsnes Data)
