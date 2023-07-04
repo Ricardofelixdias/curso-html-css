@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+
+div{
+    display: inline-block;
+    background-color: #777a7c;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+div:hover {
+
+background-color: blue;
+}
+
+a:hover{
+background-color: blue;
+}
+a{
+
+color: black;
+background-color: white;
+border: 1px solid black;
+border-radius: 10%;
+font-size: 32px;
+}
+
+.d4 > p{
+
+    display: none;
+}
+
+.d4:hover > p{
+    display: block;
+    color: black;
+
+}
+
+.d4:hover{
+    color: yellow;
+
+
+}
