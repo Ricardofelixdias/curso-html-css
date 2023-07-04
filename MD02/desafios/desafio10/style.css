@@ -1,0 +1,166 @@
+@UTF-8;
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    margin: 1px;
+}
+p{
+    margin: 17px;
+}
+
+body{
+    margin: 0px;
+    background-image:linear-gradient(to right, #52043a, #f1086a ) ;
+}
+
+header {
+    background-image: linear-gradient(to top, #1a5c38, #38ca79 );
+    background-image:linear-gradient(to right, #c300ff, #f1086a ) ;
+    text-align: center;
+    color: white;
+    margin-top: 0px;
+    padding: 12px;
+    font-family: 'roboto', sans-serif;
+    box-shadow: 1px 1px 7px 4px rgba(0, 0, 0, 0.411);
+    
+    
+
+}
+
+nav{
+    text-align: left;
+    font-size: 1.5em;
+    padding: 1px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+    margin-right: -4px;
+    border-radius: 10%;
+    transition-duration: 1s;
+    
+
+}
+
+nav >a:hover{
+    
+   
+    background-color: #66666691;
+    color:#2dbe28;
+    
+}
+
+main{
+    background-color: white;
+    margin: 0px 260px 0px 200px ;
+    padding: 41px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 2px 8px 8px 8px rgba(0, 0, 0, 0.418);
+    text-align: justify;
+    border-radius: 1px 1px 10px 10px ;
+    max-width: 800px;
+    min-width: 0px;
+    margin: auto;
+}
+
+article > .android{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+}
+iframe{
+    width: 100%;
+    margin: auto;
+}
+
+#assunto > h1 {
+ 
+    color: #1a5c38;
+    font-family: 'idroid';
+}
+
+article > h2{
+    font-family: 'idroid';
+    color: #1a5c38;
+    background-image: linear-gradient(to right, #84e1ac80, #84e1ac05);
+
+}
+
+
+#extra{
+    background-color: #9ae0b8a2;
+    padding: 30px;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: -1px 1px 7px 3px rgba(0, 0, 0, 0.342);
+    
+}
+
+#extra > #principal{
+    color: white;
+    background-color: #38b16f;
+    padding: 11px;
+    margin: -10px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin: 1px;
+    
+} 
+
+#extra > ul{
+    list-style-type:'\2714\00A0';
+    columns: 2;
+    
+}
+abbr{
+    text-decoration: none;
+}
+
+li{
+    margin: 5px;
+}
+  #link {
+    text-decoration: none;
+    background-color: rgb(128 128 128 / 24%);
+    color: #59cb4b;
+    padding: 2px;
+    font-size: 120%;
+    font-weight: bolder;
+    border-radius: 5px;
+
+}
+
+#link:hover{
+    text-decoration: underline;
+}
+
+footer{
+    font-family: 'roboto', sans-serif;
+    
+    font-weight: bolder;
+    text-align: center;
+    background-color: #1a5c38;
+
+    margin: 39px 0px 0px 0px;
+    padding: 21px 0px 17px 0px ;
+    -moz-box-align: end;
+
+}
+
+footer > p{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
