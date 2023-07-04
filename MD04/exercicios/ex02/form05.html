@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend> input do tipo radio</legend>
+            <input type="radio" name="sexo" id="isf"> <label for="isf"> Feminio</label>
+            <input type="radio" name="sexo" id="ism"><label for="ism"> Masculino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend> input do tipo checkbox</legend>
+            <input type="checkbox" name="fut" id="ifut"> <label for="ifut">futibool</label>
+            <input type="checkbox" name="futsal" id="ifutsal"> <label for="ifutsal">futisal</label>
+            <input type="checkbox" name="nata" id="inata"> <label for="inata">nataçao</label>
+            <input type="checkbox" name="judo" id="ijudo"> <label for="ijudo">judo</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>input do tipo color</legend>
+            <input type="color" name="cor" id="icor">
+            <label for="icor">Cor</label>
+        </fieldset>
+        <fieldset>
+            <legend>input do tipo range</legend>
+            <label for="inivel">Nivel</label>
+            <input type="range" name="nivel" id="inivel">
+        </fieldset>
+        <fieldset>
+            <legend>input do tipo file</legend>
+            <label for="ifoto">Enviar uma foto</label>
+            <input type="file" name="foto" id="ifoto">
+        </fieldset>
+        <fieldset>
+            <legend> usando a tag select </legend>
+            <label for="ist">estado</label>
+            <select name="estado" id="ist">
+                <optgroup label="Regiao Sudoéste">
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espirito Santo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </optgroup>
+
+                <optgroup label="Regiao Nordeste">
+                    <option value="BA">Bahia</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="PE">Pernanbuco</option>
+                    <option value="PA">Paraiba</option>
+                    <option value="PI">Piaui</option>
+                    <option value="RN">Rio Grando do Norte</option>
+                    <option value="CE">Ceara</option>
+                    <option value="MA">Maranhao</option>
+                </optgroup>
+
+                <optgroup label="Regiao Norte">
+                    <option value="AM">Amazonia</option>
+                    <option value="PA">Para</option>
+                    <option value="RR">Roraima</option>
+                    <option value="RO">Rondonia</option>
+                    <option value="AC">Acre</option>
+                </optgroup>
+
+                <optgroup label="Regiao Centro Oeste">
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="GO">Goiais</option>
+                </optgroup>
+
+                <optgroup label="Regiao Sul">
+                    <option value="RS">Rio grande do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="PA">Parana</option>
+                </optgroup>
+
+
+            </select>
+        </fieldset>
+
+
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </div>
+    </form>
+</body>
+</html>

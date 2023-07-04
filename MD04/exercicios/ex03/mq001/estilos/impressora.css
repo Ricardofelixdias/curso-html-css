@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/*estilo para impressoras*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    
+    font-size: 1.0em;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+
+h1, h2{
+    margin: 10px 10px ;
+}
+
+p{
+    font-weight: 900;
+    margin-top: 5px;
+    text-indent: 10px;
+    text-align: justify;
+    
+}
+
+
+header > h1 {
+    text-align: center;
+}
+
+
+header{
+    display: block;
+    
+    background-color: #808080;
+}
+
+menu{
+    display: none;
+}
+
+
+article{
+    
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,30 @@
+Um Formulario e um documento a onde os dados sao inseridos (como uma caixa de perguntas)
+
+    no HTML5 os formularios sao inseridos dentro de uma tag <form></form>, e dentro dele serao os controles
+de interação (como caixas para inserir textos numeros ou ate mesmo um botao) pra  isso sao utilzados a tag <input> 
+dentro da tag <input> nos inserimos de qual tipo essa caixa de interação usando o (type="") exemplo de uma caixa de 
+texto <input type="text"> e ainda teremos que dar um nome e uma indentificação para esta caixa usando o name=""
+e o id="" exemplo... <input type="texto" name="nome" id="inome"> para o leitor indentificar que ali sera para ele colocar
+o nome devemos icluir um texto anterior a tag <input> dentro de alguma caixa podendo ser uma div ou uma tag <p> 
+ex... <div>Coloque o seu nome: <input type="text" name="texto" id="inome"></div> sendo que o texto inserido nao tem nenhuma ligaçao a caixa de texto sendo somento ilustrativo para os mecanismos de buscas saber que aquele texto e o input tem alguma ligação devemos envolver o texto inserido dentro de uma tag <label> e dizer com oque esse label tem ligaçao
+usando o for="" dentro da tag <label></label> sendo que oque vale e a indentificaçao que nos demos a caixa de textp
+ex...
+ <div>
+    <label for="inome">coloque o seu nome:</label> <input type="text" name="texto" id="inome">
+ </div>
+
+  outras funcionalidades do <form> e voce poder desligar o autocomplete colocando autocomplete="on" ou autocomplete"off"
+  dentro tag <form> 
+    outra coisa e encaminhar esses dados inseridos no formulario para algum lugar sendo alguma linguagem de progamaçao 
+funcinondo no lado do servidor sendo, php, java e entre outros utilizando a açao action="" dentro da tag <form> e um botao para enviar esses dados utilizando o input do tipo subimit <input type="subimit">
+exemplo completo utilizando um arquivo (cadastro.php) de diretorio para onde os dados irao so para ilustrar
+
+<form action="cadastro.php" autocomplete="off">
+    <div>
+        <label for="inome">Coloque o seu nome:</label><input type="text" name="nome" id="inome">
+        <input type="submit" value="enviar">
+    </div>
+</form>
+
+outra coisa que pode fazer e esconder os dados que foram inseridos no formularios mais nao oucultar por completo
+utilizando os metodos get ou post colocando method="get" ou method="post" sendo que o metodo get ira aparecer os dados na aba de navegaçao e o post ira oucultar da a aba de navegaçao mas pelo deve tools da pra achar esses dados para ocultar completamente esses dados deve se estudar sobre protocolos htpps para criptografar esses dados  
